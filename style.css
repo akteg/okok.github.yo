@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(252, 255, 252);
+    background-image: url('27Jan_holocaust_article-1366x768.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border: 1px dotted rgb(239, 229, 241);
+    width: 100%;
+    background-color: rgba(186, 175, 242, 0.751);
+    border-width: thick;
+    border-right-style: solid;
+    border-left-style: solid;
+    text-align: center;
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+table td a {
+    text-decoration: none; 
+    color: rgb(52, 64, 75);
+    padding: 10px;
+    transition: background-color 0.3s ease; 
+}
+
+table td a:hover {
+    background-color: rgba(52, 64, 75, 0.2); 
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Papyrus', cursive;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    margin: 40px 0; 
+}
+
+.quote-box {
+    text-align: center;
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    margin: 20px auto;
+    border: 2px solid rgb(52, 64, 75);
+    padding: 20px;
+    background-color: rgb(252, 248, 255);
+    width: 60%;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(186, 175, 242, 0.751);
+    padding: 20px;
+    border-radius: 10px; 
+    margin: 20px auto;
+    width: 80%; 
+}
